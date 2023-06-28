@@ -9,7 +9,7 @@ const selection = (nums) => {
         }
 
         if (select != i) {
-            [ nums[select], nums[i] ] = [ nums[i], nums[select] ];
+            [nums[select], nums[i]] = [nums[i], nums[select]];
         }
     }
 }
