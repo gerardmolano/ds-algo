@@ -2,12 +2,13 @@
 
 practice known data-structure and algorithm
 
-data-structure
+## data-structure
+-
 
-algorithm
-    sort (js)
-        bubble
-        insertion
-        merge
-        quick
-        selection
+## algorithm
+### sort (js)
+- bubble
+- insertion
+- merge
+- quick
+- selection
