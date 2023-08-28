@@ -1,6 +1,5 @@
 const bubble = nums => {
-    for (let i = 0; i < nums.length; i++) {
-
+    for (let i = 0; i < nums.length - 1; i++) {
         let hasSwap = false;
         for (let j = 0; j < nums.length - i - 1; j++) {
             if (nums[j] > nums[j + 1]) {
@@ -8,7 +7,6 @@ const bubble = nums => {
                 hasSwap = true;
             }
         }
-
         if (!hasSwap) {
             break;
         }

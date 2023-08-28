@@ -10,12 +10,13 @@ const pivot = (nums, start, end) => {
     let pivotIdx = start;
 
     for (var i = start; i < end; i++) {
-        if (nums[i] < pivotValue) {
-            if (i != pivotIdx) {
-                [nums[i], nums[pivotIdx]] = [nums[pivotIdx], nums[i]]
-            }
-            pivotIdx++;
+        if (nums[i] > pivotValue) {
+            continue;
         }
+        if (i != pivotIdx) {
+            [nums[i], nums[pivotIdx]] = [nums[pivotIdx], nums[i]]
+        }
+        pivotIdx++;
     }
 
     if (i != pivotIdx) {
