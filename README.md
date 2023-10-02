@@ -15,3 +15,4 @@ practice known data-structures and algorithms
 
 ### search (js/java)
 - binary
+- jump
