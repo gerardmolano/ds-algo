@@ -11,7 +11,7 @@ public class Jump {
         int i = 0;
         int step = JUMP_VALUE;
 
-        while (nums[Math.min(step, LEN)] < key) {
+        while (nums[Math.min(step, LEN) - 1] < key) {
             i = step;
             step += JUMP_VALUE;
             if (i >= LEN) {
